@@ -2,6 +2,10 @@
 :root {
   --background-color: #fafafa;
   --text-color: #333;
+    div {
+  text-align: justify;
+  text-justify: inter-word;
+}
   --text-title-color: #111;
   --text-hover-color: #000;
   --light-accent-color: #ccc;
@@ -16,6 +20,7 @@
   100% {
     opacity: 1;
     transform: translateY(-1em);
+      
   }
 }
 @keyframes name {
@@ -200,6 +205,7 @@ section {
   border: 2px solid var(--light-accent-color);
   box-shadow: 5px 5px 0px 2px var(--light-accent-color);
   white-space: nowrap;
+    
 }
 
 #menu a:hover {
